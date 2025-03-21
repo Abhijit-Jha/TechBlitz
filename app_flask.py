@@ -45,8 +45,9 @@ def predict():
 
         # Create a DataFrame with the expected column names
         expected_columns = [
-            'Temperature (°C)', 'Humidity (%)', 'PM2.5 (µg/m³)', 'PM10 (µg/m³)',
-            'NO₂ (ppb)', 'SO₂ (ppb)', 'CO (ppm)', 'Proximity_to_Industrial_Areas (km)'
+            'Temperature', 'Humidity', 'PM2.5', 'PM10',
+            'NO2', 'SO2', 'CO', 'Proximity_to_Industrial_Areas',
+            'Population_Density'
         ]
         
         # Check if all required fields are present
